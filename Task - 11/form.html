@@ -1,0 +1,55 @@
+<!--  7) Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body{
+    display: flex;
+    align-items: center;
+}
+h1{
+    background-color: orangered;
+}
+.container{
+width: 300;
+  height: 300;
+background-color: rgb(255, 243, 224);
+border: red;
+}
+</style>
+</head>
+<body>
+    <div class="container">   
+<h1>Yes! I Want to subscribe to Mag-O-Zine</h1>
+
+<form>
+    <input type="text" placeholder="First Name"/>       <input type="text" placeholder="Last Name"/>  <br/>
+    <input type="text" placeholder="address"/>  <br/>
+    <input type="text" placeholder="city"/>      <input type="text" placeholder="state"/>      <input type="text" placeholder="Zip"/>  
+
+</form>
+
+
+<h4>subscribe for:</h4>   
+<input type="radio" name="price" id="1 year"/>
+<label for="1 year">1 year($19.95)</label>
+<input type="radio" name="price" id="2 year"/>
+<label for="2 year">2 year($35.00)</label>
+
+
+   <form>    
+    <p>send me more information about:</p>  
+    <input type="checkbox" name="option 1" value="option 1">Computer-Zine<br/>  
+    <input type="checkbox" name="option 2" value="option 2">Fishing-Zine<br/>  
+    <input type="checkbox" name="option 3" value="option 3">Cat-O-Zine<br/>  
+    
+</form>  
+</div>
+</body>
+</html>
